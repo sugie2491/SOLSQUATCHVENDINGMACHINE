@@ -1,0 +1,643 @@
+
+/* FONT FACE */
+@font-face {
+  font-family: 'Patrick One';
+  src: url('fonts/PatrickHand-Regular.eot');
+  src: url('fonts/PatrickHand-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/PatrickHand-Regular.woff2') format('woff2'),
+      url('fonts/PatrickHand-Regular.woff') format('woff'),
+      url('fonts/PatrickHand-Regular.ttf') format('truetype'),
+      url('fonts/PatrickHand-Regular.svg#PatrickHand-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nerko One';
+  src: url('fonts/NerkoOne-Regular.eot');
+  src: url('fonts/NerkoOne-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/NerkoOne-Regular.woff2') format('woff2'),
+      url('fonts/NerkoOne-Regular.woff') format('woff'),
+      url('fonts/NerkoOne-Regular.ttf') format('truetype'),
+      url('fonts/NerkoOne-Regular.svg#NerkoOne-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+@font-face {
+  font-family: 'Poppins Black Italic';
+  src: url('fonts/Poppins-BlackItalic.eot');
+  src: url('fonts/Poppins-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-BlackItalic.woff2') format('woff2'),
+      url('fonts/Poppins-BlackItalic.woff') format('woff'),
+      url('fonts/Poppins-BlackItalic.ttf') format('truetype'),
+      url('fonts/Poppins-BlackItalic.svg#Poppins-BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('fonts/Poppins-Bold.eot');
+  src: url('fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Bold.woff2') format('woff2'),
+      url('fonts/Poppins-Bold.woff') format('woff'),
+      url('fonts/Poppins-Bold.ttf') format('truetype'),
+      url('fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Black';
+  src: url('fonts/Poppins-Black.eot');
+  src: url('fonts/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Black.woff2') format('woff2'),
+      url('fonts/Poppins-Black.woff') format('woff'),
+      url('fonts/Poppins-Black.ttf') format('truetype'),
+      url('fonts/Poppins-Black.svg#Poppins-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Bold Italic';
+  src: url('fonts/Poppins-BoldItalic.eot');
+  src: url('fonts/Poppins-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-BoldItalic.woff2') format('woff2'),
+      url('fonts/Poppins-BoldItalic.woff') format('woff'),
+      url('fonts/Poppins-BoldItalic.ttf') format('truetype'),
+      url('fonts/Poppins-BoldItalic.svg#Poppins-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Extra Bold';
+  src: url('fonts/Poppins-ExtraBold.eot');
+  src: url('fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
+      url('fonts/Poppins-ExtraBold.woff') format('woff'),
+      url('fonts/Poppins-ExtraBold.ttf') format('truetype'),
+      url('fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Extra Bold Italic';
+  src: url('fonts/Poppins-ExtraBoldItalic.eot');
+  src: url('fonts/Poppins-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+      url('fonts/Poppins-ExtraBoldItalic.woff') format('woff'),
+      url('fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'),
+      url('fonts/Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Extra Light';
+  src: url('fonts/Poppins-ExtraLight.eot');
+  src: url('fonts/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-ExtraLight.woff2') format('woff2'),
+      url('fonts/Poppins-ExtraLight.woff') format('woff'),
+      url('fonts/Poppins-ExtraLight.ttf') format('truetype'),
+      url('fonts/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Italic';
+  src: url('fonts/Poppins-Italic.eot');
+  src: url('fonts/Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Italic.woff2') format('woff2'),
+      url('fonts/Poppins-Italic.woff') format('woff'),
+      url('fonts/Poppins-Italic.ttf') format('truetype'),
+      url('fonts/Poppins-Italic.svg#Poppins-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Light';
+  src: url('fonts/Poppins-Light.eot');
+  src: url('fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Light.woff2') format('woff2'),
+      url('fonts/Poppins-Light.woff') format('woff'),
+      url('fonts/Poppins-Light.ttf') format('truetype'),
+      url('fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Extra Light Italic';
+  src: url('fonts/Poppins-ExtraLightItalic.eot');
+  src: url('fonts/Poppins-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+      url('fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+      url('fonts/Poppins-ExtraLightItalic.ttf') format('truetype'),
+      url('fonts/Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Light Italic';
+  src: url('fonts/Poppins-LightItalic.eot');
+  src: url('fonts/Poppins-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-LightItalic.woff2') format('woff2'),
+      url('fonts/Poppins-LightItalic.woff') format('woff'),
+      url('fonts/Poppins-LightItalic.ttf') format('truetype'),
+      url('fonts/Poppins-LightItalic.svg#Poppins-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('fonts/Poppins-Medium.eot');
+  src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Medium.woff2') format('woff2'),
+      url('fonts/Poppins-Medium.woff') format('woff'),
+      url('fonts/Poppins-Medium.ttf') format('truetype'),
+      url('fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Medium Italic';
+  src: url('fonts/Poppins-MediumItalic.eot');
+  src: url('fonts/Poppins-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-MediumItalic.woff2') format('woff2'),
+      url('fonts/Poppins-MediumItalic.woff') format('woff'),
+      url('fonts/Poppins-MediumItalic.ttf') format('truetype'),
+      url('fonts/Poppins-MediumItalic.svg#Poppins-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('fonts/Poppins-Regular.eot');
+  src: url('fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Regular.woff2') format('woff2'),
+      url('fonts/Poppins-Regular.woff') format('woff'),
+      url('fonts/Poppins-Regular.ttf') format('truetype'),
+      url('fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Semi Bold';
+  src: url('fonts/Poppins-SemiBold.eot');
+  src: url('fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+      url('fonts/Poppins-SemiBold.woff') format('woff'),
+      url('fonts/Poppins-SemiBold.ttf') format('truetype'),
+      url('fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Semi Bold Italic';
+  src: url('fonts/Poppins-SemiBoldItalic.eot');
+  src: url('fonts/Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+      url('fonts/Poppins-SemiBoldItalic.woff') format('woff'),
+      url('fonts/Poppins-SemiBoldItalic.ttf') format('truetype'),
+      url('fonts/Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Thin';
+  src: url('fonts/Poppins-Thin.eot');
+  src: url('fonts/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-Thin.woff2') format('woff2'),
+      url('fonts/Poppins-Thin.woff') format('woff'),
+      url('fonts/Poppins-Thin.ttf') format('truetype'),
+      url('fonts/Poppins-Thin.svg#Poppins-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins Thin Italic';
+  src: url('fonts/Poppins-ThinItalic.eot');
+  src: url('fonts/Poppins-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Poppins-ThinItalic.woff2') format('woff2'),
+      url('fonts/Poppins-ThinItalic.woff') format('woff'),
+      url('fonts/Poppins-ThinItalic.ttf') format('truetype'),
+      url('fonts/Poppins-ThinItalic.svg#Poppins-ThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/* END FONTFACE */
+
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('forest.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--main-text-color);
+  min-height: 100vh;
+  position: relative;
+  /* background: var(--main-background-color); */
+  margin: 0;
+  font-family: 'Poppins Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Nerko One',
+    monospace;
+}
+
+nav {
+  background: var(--nav-background-color);
+  width: 100%;
+  height: var(--nav-height);
+  transition: height 0.2s ease-in-out;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.nav-logo {
+  width: var(--nav-logo-width);
+}
+
+nav a {
+  font-size: var(--nav-logo-font-size);
+  color: var(--nav-link-color);
+  text-decoration: none;
+
+  padding: 20px;
+}
+
+nav a:hover {
+  color: var(--nav-link-hover-color);
+  background-color: var(--nav-link-hover-background-color);
+}
+
+.mobile-menu-button {
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  top: 37px;
+  right: -50px;
+  transition: right 0.2s ease-in-out;
+  z-index: 45;
+  cursor: pointer;
+}
+
+.open-menu {
+  left: 0px !important;
+}
+
+.mobile-nav {
+  position: fixed;
+  min-height: 100vh;
+  background: var(--mobile-nav-background-color, rgb(117, 69, 69));
+  left: -100%;
+  z-index: 50;
+  width: 100%;
+  transition: left 0.3s ease;
+}
+
+.mobile-nav-close-button {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 37px;
+  right: 37px;
+  cursor: pointer;
+}
+
+.mobile-nav-close-button img {
+  height: 100%;
+  width: 100%;
+}
+
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 40px;
+  list-style: none;
+}
+
+.mobile-nav li {
+  list-style: none;
+  padding: 20px;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: var(--mobile-nav-link-color);
+  font-size: var(--mobile-nav-link-size);
+}
+
+.mobile-nav a:hover {
+  color: var(--mobile-nav-link-hover-color);
+}
+
+.mobile-nav-logo {
+  height: var(--nav-logo-height);
+}
+
+.text-muted {
+  color: darkgrey;
+}
+
+.nav-social {
+  width: 30px;
+
+  padding: 0 10px 0 10px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+  .hide-800 {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    right: 37px;
+  }
+
+  .nav-logo {
+    height: 50px !important;
+  }
+
+  nav {
+    height: 100px;
+  }
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.pb-2 {
+  padding-bottom: 20px;
+}
+
+.pb-3 {
+  padding-bottom: 30px;
+}
+
+.pb-4 {
+  padding-bottom: 40px;
+}
+
+header {
+  max-width: 1280px;
+  margin: auto;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  display: grid;
+  gap: 40px;
+  padding: 35px;
+  flex-direction: column;
+}
+
+.mintHeader {
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  header {
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    gap: 20px;
+  }
+}
+
+.text-primary-color {
+  color: var(--text-primary-color);
+}
+
+.text-secondary-color {
+  color: var(--text-secondary-color);
+}
+
+.team {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.team-item {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px -13px white;
+}
+
+.faq {
+  max-width: 900px;
+  margin: auto;
+  align-items: center;
+  padding: 20px;
+}
+
+.faq div {
+  margin-bottom: 20px;
+}
+
+.faq p {
+  padding: 20px;
+}
+
+.rainbow-gallery {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.rainbow-gallery img {
+  width: 100%;
+}
+
+.card {
+  background-color: #65a479;
+  align-items: center;
+  border-radius: var(--card-border-radius);
+  padding: 150px 40px;
+  background: var(--card-background-color);
+  box-shadow: var(--card-shadow);
+}
+
+.container {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+.content-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.content-wrapper h1 {
+  font-family: 'Nerko One';
+  /* font-size: 36px; */
+}
+
+.MuiTypography-root.pb-2.MuiTypography-h5 {
+  font-family: 'Nerko One' !important;
+  font-size: 28px !important;
+}
+
+.MuiTypography-root.pb-2 {
+  font-family: 'Poppins Regular' !important;
+  font-size: 16px;
+  text-align: center !important;
+}
+.MuiButtonBase-root {
+  font-family: 'Nerko One' !important;
+  font-size: 24px !important;
+}
+
+.mints-available {
+  background: rgb(65, 65, 65);
+  box-shadow: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.minting-box {
+  background-color: var(--minting-box-color) !important;
+  color: var(--minting-box-text-color) !important;
+}
+
+.minting-box h5 {
+  color: var(--minting-box-heading-color);
+}
+
+.minting-info {
+  background-color: var(--minting-box-info-box-color);
+  box-shadow: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.minting-info h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.minting-button {
+  background: var(--minting-button-color) !important;
+}
+
+.custom-mint-container {
+  margin-bottom: 20px;
+ }
+
+
+
+.loading:after {
+  content: " .";
+  animation: dots 1s steps(5, end) infinite;
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: white;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  80%,
+  100% {
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
+  }
+}
+
+
